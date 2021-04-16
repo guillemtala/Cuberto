@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.relleno-columnas {
+    padding: 4vw;
+}
+
+#header {
+    background-color: white;
+}
+
+#header h4 {
+    font-size: 2vw;
+}
+
+#header h1 {
+    font-size: 5.5vw;
+    color: #048c8c;
+}
+
+#section1 {
+    background-color: #f5eef5;
+}
+
+#section1 p {
+    font-size: 5.2vw;
+    color: #848484;
+}
+
+#section1 h3 {
+    font-size: 3vw;
+}
+
+#section1 h4 {
+    font-size: 2vw;
+}
+
+#section2 {
+    background-color: #faf5f3;
+}
+
+#section2 p {
+    font-size: 5.2vw;
+    color: #848484;
+}
+
+#section2 h3 {
+    font-size: 3vw;
+}
+
+#section2 h4 {
+    font-size: 2vw;
+}
+
+#section3 {
+    background-color: #f2f9f8;
+}
+
+#section3 p {
+    font-size: 5.2vw;
+    color: #848484;
+}
+
+#section3 h3 {
+    font-size: 3vw;
+}
+
+#section3 h4 {
+    font-size: 2vw;
+}
+
+#section4 {
+    background-color: #000000;
+    color: white;
+}
+
+.column1 {
+    width: 100%;
+    float: left;
+}
+
+.column3 {
+    width: 100%;
+    float: left;
+    padding: 5vw 4vw 0vw 4vw;
+}
+
+.column4 {
+    width: 25%;
+    float: left;
+}
+
+.column2 {
+    width: 50%;
+    float: left;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .column2 {
+        width: 100%;
+    }
+    .column4 {
+        width: 50%;
+    }
+    #header h1 {
+        font-size: 6vw;
+    }
+    #header h4 {
+        font-size: 4vw;
+    }
+    #section1 p {
+        font-size: 6vw;
+    }
+    #section1 h3 {
+        font-size: 5vw;
+    }
+    #section1 h4 {
+        font-size: 4vw;
+    }
+    #section2 p {
+        font-size: 6vw;
+    }
+    #section2 h3 {
+        font-size: 5vw;
+    }
+    #section2 h4 {
+        font-size: 4vw;
+    }
+    #section3 p {
+        font-size: 6vw;
+    }
+    #section3 h3 {
+        font-size: 5vw;
+    }
+    #section3 h4 {
+        font-size: 4vw;
+    }
+}
